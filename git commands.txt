@@ -40,12 +40,14 @@ git add -A or git add . tells git to pick up any new, eddited, or removed files 
 git commit -m "Message" tell git what you added and what you changed 
 git push origin main/master  pushing all the codes or recent changes into github
 -------------
-To upload a project into repo from your local pc: 
+
 
 git init 
+git add .
 git commit -m "first commit"
 git branch -M main
-git checkout -b main
+git checkout -b main   Main is the name, you can choose another name instead. This command creates a new branch
 git remote add origin git@github.com:Shahabgeravesh/Git-Commands.git
 git push -u origin main
-
+--------
+git branch -l shows you all the branches available to you 
