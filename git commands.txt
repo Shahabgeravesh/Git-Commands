@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Create a new git repo: git init
 tells you what has changed since the last commit: git status 
 the command you need to run before git commit: git add
@@ -52,3 +53,58 @@ git push -u origin main
 --------
 git branch -l shows you all the branches available to you 
 git remote -v we can see if we are connected to a correct git repo
+=======
+Create a new git repo: git init
+tells you what has changed since the last commit: git status 
+the command you need to run before git commit: git add
+How do you add a message to a git commit? 
+Add -m "Message" at the end of git commit
+to check what changes you have implemented? git log
+
+pwd: show absolute path
+ls: show all directores and files
+ls -a: show all the hidden files and folders 
+mkdir <Folder name>: Create new folder 
+Touch < Path/file name.extensions> : creates files at path (don't forget the extension)
+cd < relative Path to folder>: Changes to new directory
+cd .. goes one directory back
+rm <path/filename>: removes/deletes the file
+rm -rf<path/fodler>: removes folder and everything inside of it 
+Clear: clears screen
+mv nameofthefolder pathofthefolderthatyouwanttomoveittoandnewname: Will move and change name 
+cp filename new path: you copy the file and paste it to the new path.  
+
+echo <something to echo> : Will display in screen 
+echo <item to write> <filename.extension>: this will write to file
+example: create folder and name it text.txt first. then write the folowing in the bash. echo "Hello world in file">text.txt
+Cat <filename>: reads inside the document 
+contol C: is the process to terminate anything in the terminal 
+nano: Terminal Text Editor 
+code. /<folder/ filename.extension>
+
+../ one directory behind me 
+../ two directory behind me 
+./ the directory I am in it now 
+
+Snake Casing 
+Camel Casing 
+README.md: we create to explain what the code does or summarizing the code. md stands for markdown. 
+
+
+-------------- 
+git add -A or git add . tells git to pick up any new, eddited, or removed files in your project
+git commit -m "Message" tell git what you added and what you changed 
+git push origin main/master  pushing all the codes or recent changes into github
+-------------
+
+
+git init 
+git add .
+git commit -m "first commit"
+git branch -M main
+git checkout -b main   Main is the name, you can choose another name instead. This command creates a new branch
+git remote add origin git@github.com:Shahabgeravesh/Git-Commands.git
+git push -u origin main
+--------
+git branch -l shows you all the branches available to you 
+>>>>>>> ee924cef90a37489f498fd858612f558738b1590
