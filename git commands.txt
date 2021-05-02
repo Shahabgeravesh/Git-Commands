@@ -51,3 +51,4 @@ git remote add origin git@github.com:Shahabgeravesh/Git-Commands.git
 git push -u origin main
 --------
 git branch -l shows you all the branches available to you 
+git remote -v we can see if we are connected to a correct git repo
